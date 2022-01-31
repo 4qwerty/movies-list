@@ -1,0 +1,17 @@
+version: '3'
+services:
+  api:
+    image: webbylabhub/movies
+    ports:
+      - 8000:8000
+    container_name: movies-api
+
+  client:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_API_URL: http://localhost:8000/api/v1
+    ports:
+      - 3000:3000
+    container_name: movies-client

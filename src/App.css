@@ -1,0 +1,60 @@
+.app {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #e3e3e3;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container-small {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.pagewrap {
+  padding: 50px 15px;
+}
+
+.pagewrap-small {
+  padding: 30px 15px;
+  border-radius: 8px;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin-20 {
+  margin-bottom: 20px;
+}
+
+.header-color {
+  background-color: #c4c2c2 !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2392ff;
+  padding: 5px 10px;
+}
+
+.nav-link-logout {
+  color: red !important;
+}
+
+.nav-link-logout:hover {
+  color: rgb(179, 4, 4) !important;
+}
+
+.nav-link:hover {
+  color: #e3e3e3;
+}
+
+.input-width {
+  max-width: 300px;
+}
