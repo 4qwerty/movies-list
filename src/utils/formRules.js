@@ -26,7 +26,7 @@ export const PASSWORD_RULE = [
 export const NAME_RULE = (lastOrFirst = 'first') => [
   REQUIRED_RULE[0],
   {
-    pattern: new RegExp('^[a-zA-Z]+$'),
+    pattern: new RegExp('^[a-zA-Zа-яіїА-ЯІЇ]+$'),
     message: `Enter ${lastOrFirst} name (without spaces)`,
   },
 ];
